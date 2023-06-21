@@ -1,0 +1,140 @@
+*{margin: 0; padding: 0;}
+.login-button {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    cursor: pointer;
+}
+.shopping {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.logo-section {
+    display: flex;
+    justify-content: center;
+}
+.menuList {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.menuList li {padding: 20px;}
+.search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: -40px; right: 20px;
+}
+.menuImg {
+    display: flex;
+    justify-content: center;
+}
+.menuImg img {width: 300px;}
+.product-img {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .product-img img {
+    width: 400px;
+  }
+  .title-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .title-box .txt {
+    width: 200px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    position: relative;
+    bottom: 50px;
+  }
+  .buy-button button {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .option-box {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .option-box div {
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+  .grinding-selection {
+    display: flex;
+  }
+  .grinding-selection div {
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+  .suggestion-coffee {
+    display: flex;
+    justify-content: center;
+  }
+  .suggestion-coffee img {
+    width: 300px;
+  }
+  .suggestion-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .suggestion-title div {
+    text-align: center;
+  }
+  .best {
+    display: flex;
+    justify-content: center;
+  }
+  .best div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .best img {
+    width: 300px;
+  }
+  .coldbrow {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .coldbrow div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .giftset {
+    display: flex;
+    justify-content: center;
+  }
+  .giftset div {
+    text-align: center;
+  }
+  .fruit-box {
+    display: flex;
+    justify-content: center;
+  }
+  .fruit-box div {
+    text-align: center;
+  }
+  .shopping {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -45px; right: 90px;
+  }
+  .product-title{
+    display: flex;
+   flex-direction: column;
+  }
+  .product-title div{text-align: center; margin: 10px;}
+  

@@ -1,0 +1,24 @@
+.product-img {
+    position: relative;
+  }
+  
+  .product-image {
+    transition: all 0.3s ease;
+  }
+  
+  .move-to-cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: move-to-cart 0.4s ease forwards;
+  }
+  
+  @keyframes move-to-cart {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(90%, -200%);
+    }
+  }
+  

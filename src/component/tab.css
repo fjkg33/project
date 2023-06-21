@@ -1,0 +1,19 @@
+.delivery {
+    display: flex;
+    margin-top: 20px;
+}
+.delivery .txt {
+    margin-left: 30px;
+    font-size: 14px;
+}
+.delivery p{
+    font-size: 14px;
+}
+.guide {
+    display: flex;
+}
+.guide p{font-size: 14px;}
+.guide ol li {
+    margin-left: 20px;
+    font-size: 14px;
+}
