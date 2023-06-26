@@ -64,7 +64,6 @@ const Navbar = () => {
           <li onClick={coldbrowcoffee}>콜드브루</li>
           <li onClick={giftclick}>선물세트</li>
           <li onClick={fruit}>과일청</li>
-          <li onClick={review}>Review</li>
         </ul>
         <div className="search">
           <FontAwesomeIcon icon={faSearch} />

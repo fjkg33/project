@@ -9,6 +9,7 @@ const ProductListItem = ({
 }) => {
   return (
     <div>
+      <div>{item.img}</div>
       <h3>{item.name}</h3>
       <p>{item.description}</p>
       <h4>Price: {item.price}</h4>
