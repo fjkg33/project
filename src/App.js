@@ -9,7 +9,6 @@ import BannerImage from './banner/banner.jpg'
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
 import PrivateRoute from './Route/PrivateRoute';
-import Cart from './page/Cart';
 import SuggestionCoffee from './page/SuggestionCoffee';
 import BestAll from './page/BestAll';
 import ColdBrowAll from './page/ColdBrow';
@@ -17,8 +16,8 @@ import GiftSet from './page/GifSet';
 import FruitAgency from './page/FruitAgency';
 import ReviewsList from './component/ReviewList';
 import './component/tab.css'
-
-
+import ProductList from './component/ProductList';
+import Cart from "./component/Cart";
 
 
 

@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, DropdownButton, Dropdown, Button } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import { useDispatch, useSelector } from 'react-redux';
-import { addToCart } from '../page/cartSlice';
+import { addToCart } from "../redux/createSlice";
+
 
 const ProductDetail = () => {
   const [cartAnimation, setCartAnimation] = useState(false);
@@ -25,15 +26,22 @@ const ProductDetail = () => {
 
   const handleAddToCart = () => {
     if (product) {
-      dispatch(addToCart({ id: product.id, name: product.title, price: product.price }));
+      dispatch(
+        addToCart({
+          id: product.id,
+          name: product.title,
+          price: product.price,
+          img: product.img,
+          quantity: 1,
+        })
+      );
       setCartAnimation(true);
     }
   };
-
   return (
     <Container>
       <Row>
-        <Col className={`product-img${cartAnimation ? ' move-to-cart' : ''}`}>
+        <Col>
           <img src={product?.img} />
         </Col>
         <Col className="title-box">
